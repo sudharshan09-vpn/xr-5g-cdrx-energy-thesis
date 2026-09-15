@@ -87,3 +87,35 @@ From the NS-3 working directory:
 ```bash
 chmod +x run_cdrx_sweep.sh
 ./run_cdrx_sweep.sh
+
+The C-DRX sweep runs combinations of:
+
+- 5 UE densities
+- 4 inactivity timers
+- 4 C-DRX cycle lengths
+for a total of 80 simulation runs.
+
+Scenario-dependent matrix
+From the NS-3 working directory:
+
+python3 execute_full_matrix.py
+The full matrix evaluates:
+- 5 UE densities
+- 2 bandwidth values
+- 3 propagation distances
+for a total of 30 simulation runs at 3.5 GHz.
+
+Outputs
+
+Simulation and processing scripts generate result files used for the energy, latency, and capacity analysis presented in the thesis.
+Generated data and figures are not included in this repository.
+
+Thesis
+
+This repository accompanies the MSc thesis:
+
+Energy Efficiency of XR Traffic over 5G Standalone Architecture — Dynamic Power Modeling using NS-3
+Department of Communication Systems
+KTH Royal Institute of Technology
+Author
+Sudharshan Yellampalli Kidambi
