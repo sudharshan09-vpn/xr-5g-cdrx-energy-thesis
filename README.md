@@ -117,7 +117,7 @@ Generated data and figures are not included in this repository.
 This repository accompanies the MSc thesis:
 
 Energy Efficiency of XR Traffic over 5G Standalone Architecture — Dynamic Power Modeling using NS-3
-Department of Communication Systems
-KTH Royal Institute of Technology
+- Department of Communication Systems
+- KTH Royal Institute of Technology
 ## Author
 Sudharshan Yellampalli Kidambi
