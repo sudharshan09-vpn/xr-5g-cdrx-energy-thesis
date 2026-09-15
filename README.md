@@ -81,7 +81,6 @@ The files are intended to be used with an NS-3 installation containing the requi
 Place `xr-thesis.cc` in the appropriate NS-3 `scratch/` directory and place the accompanying Python and shell scripts in the NS-3 working directory.
 
 
-```markdown
 ### C-DRX sweep
 
 From the NS-3 working directory:
@@ -96,6 +95,8 @@ The C-DRX sweep runs combinations of:
 - 4 inactivity timers
 - 4 C-DRX cycle lengths
 for a total of 80 simulation runs.
+
+```bash
 
 ### Scenario-dependent matrix
 From the NS-3 working directory:
