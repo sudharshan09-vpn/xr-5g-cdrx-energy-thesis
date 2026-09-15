@@ -85,7 +85,7 @@ Place `xr-thesis.cc` in the appropriate NS-3 `scratch/` directory and place the 
 
 From the NS-3 working directory:
 
-```bash
+``bash
 chmod +x run_cdrx_sweep.sh
 ./run_cdrx_sweep.sh
 
@@ -96,7 +96,7 @@ The C-DRX sweep runs combinations of:
 - 4 C-DRX cycle lengths
 for a total of 80 simulation runs.
 
-```bash
+
 
 ### Scenario-dependent matrix
 From the NS-3 working directory:
