@@ -85,7 +85,6 @@ Place `xr-thesis.cc` in the appropriate NS-3 `scratch/` directory and place the 
 
 From the NS-3 working directory:
 
-``bash
 chmod +x run_cdrx_sweep.sh
 ./run_cdrx_sweep.sh
 
