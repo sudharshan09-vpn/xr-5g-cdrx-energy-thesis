@@ -80,6 +80,8 @@ The files are intended to be used with an NS-3 installation containing the requi
 
 Place `xr-thesis.cc` in the appropriate NS-3 `scratch/` directory and place the accompanying Python and shell scripts in the NS-3 working directory.
 
+
+```markdown
 ### C-DRX sweep
 
 From the NS-3 working directory:
