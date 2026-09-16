@@ -28,7 +28,7 @@ for i, timer in enumerate(timers):
 
 # Generate the Latency Heatmap
 plt.figure(figsize=(8, 6))
-sns.heatmap(latency_matrix, annot=True, fmt=".2f", xticklabels=cycles, yticklabels=timers, cmap="Blues")
+sns.heatmap(latency_matrix, annot=True, fmt=".2f", xticklabels=cycles, yticklabels=timers, cmap="Blues", cbar_kws={'label': 'Average Latency (ms)'})
 plt.title("XR Headset Average Latency (ms)\n(Analytical 3GPP MAC Model)")
 plt.xlabel("C-DRX Long Cycle Length (ms)")
 plt.ylabel("Inactivity Timer (ms)")

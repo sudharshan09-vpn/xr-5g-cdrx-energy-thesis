@@ -32,7 +32,8 @@ for i, timer in enumerate(timers):
 
 # Generate the Heatmap
 plt.figure(figsize=(8, 6))
-sns.heatmap(energy_matrix, annot=True, fmt=".4f", xticklabels=cycles, yticklabels=timers, cmap="YlOrRd")
+# In plot_heatmap.py
+sns.heatmap(energy_matrix, annot=True, fmt=".2f", xticklabels=cycles, yticklabels=timers, cmap="YlOrRd", cbar_kws={'label': 'Total Energy (Joules)'})
 plt.title("XR Headset Energy Consumed (Joules)\nby C-DRX Parameters")
 plt.xlabel("C-DRX Long Cycle Length (ms)")
 plt.ylabel("Inactivity Timer (ms)")
